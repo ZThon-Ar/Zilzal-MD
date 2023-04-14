@@ -148,7 +148,7 @@ async function startZed() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Zilzal MD made by my Team Zilzal.', 'aqua'))
+    console.log(color('\nHello, I am Zelzal, the main developer of this bot.\n\nThanks for using: Zilzal MD made by my Team Zilzal.', 'aqua'))
     console.log(color('\nYou can follow me on GitHub: ZThon-Ar\n\n', 'aqua'))
 
 
