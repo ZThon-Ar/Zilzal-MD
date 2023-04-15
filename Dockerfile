@@ -11,6 +11,8 @@ RUN apt-get update && \
 
 COPY package.json .
 
+RUN npm install -g npm@9.6.4
+
 RUN yarn install
 
 COPY . .
