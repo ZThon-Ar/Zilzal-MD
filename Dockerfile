@@ -6,8 +6,8 @@ RUN npm install pm2 -g && rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
 
-RUN yarn install
+RUN npm install
 
 COPY . .
 
-CMD ["pm2-runtime", "."]
+CMD ["node", "."]
